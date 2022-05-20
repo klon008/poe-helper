@@ -195,7 +195,7 @@ export default defineComponent({
       var exa = this.exaltz;
       const numbersReg = /(?<=^| )\d+(\.\d+)?(?=$| )|(?<=^| )\.\d+(?=$| )/g;
       if (exa.length > 0 ){
-        this.chaoses = exa.match(numbersReg) * exalts;
+        this.chaoses = exa.match(numbersReg) * this.chaosText;
         if (this.chaoses){
           let axconfig = {
               "sell": "Chaos Orb",
