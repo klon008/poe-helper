@@ -19,7 +19,9 @@ import { defineComponent } from 'vue';
 
     <div class="row">
     <input v-model="exaltz" v-on:change="meowMow($event)" placeholder="Exalt to Chaos" class="flat" v-on:keypress="NumbersOnly" >
-    <button style="" @click="buttonClick">Calc</button>
+    <button  @click="buttonClick" class="refresh-button ">
+    <img :class="{'animate__animated animate__rotateIn': btnAnimated}"  @animationend="btnAnimated = false" src="@/assets/img/refresh-button.png" width="48" height="48" />
+    </button>
     </div>
   </WelcomeItem>
 
@@ -35,6 +37,12 @@ import { defineComponent } from 'vue';
 </template>
 
 <style scoped>
+.refresh-button{
+  border: 1px solid var(--color-border);
+  background: var(--color-background);
+  border-radius: 8px;
+  cursor: pointer;
+}
 .chaos-text{
   position: absolute;
   top: -25px;
@@ -166,6 +174,7 @@ export default defineComponent({
       chaoses: "",
       sjson: "",
       chaosText: "",
+      btnAnimated: false
     }
   },
   watch: {
@@ -192,6 +201,7 @@ export default defineComponent({
       }
     },
     meowMow(dam){
+
       var exa = this.exaltz;
       const numbersReg = /(?<=^| )\d+(\.\d+)?(?=$| )|(?<=^| )\.\d+(?=$| )/g;
       if (exa.length > 0 ){
@@ -229,6 +239,33 @@ export default defineComponent({
       }
     },
     buttonClick(){
+      this.btnAnimated = true;
+      const axconfig = {
+          "sell": "Chaos Orb",
+          "buy": "Exalted Orb",
+          "limit": 5
+      }
+      axios({
+            method: "get",
+            url:'https://raw.githubusercontent.com/The-Forbidden-Trove/poeninja-prices/main/League/Currency.txt',
+            data: axconfig,
+            headers: { "Content-Type": "multipart/form-data" },
+
+          }).then((response) => {
+            this.sjson = response.data;
+            const tempJson = response.data;
+            const selectedEx = tempJson.find(o => o.name == 'Exalted Orb')
+            const chaosEquivalent = selectedEx.chaosEquivalent;
+            this.chaosText = chaosEquivalent;
+            VueCookieNext.setCookie('chaosEquivalent', chaosEquivalent, { 
+              expire: '1d'
+            });
+
+            }
+          )
+          .catch(
+            (error) => console.log(error.response)
+            );          
     },
     
   },
