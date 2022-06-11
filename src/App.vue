@@ -1,12 +1,11 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
 </script>
 
 <template>
  
   <main>
-    <TheWelcome />
+    <HelloWorld />
   </main>
 </template>
 
@@ -46,7 +45,6 @@ a,
 @media (min-width: 1024px) {
   body {
     display: flex;
-    place-items: center;
   }
 
   #app {
@@ -72,3 +70,7 @@ a,
   }
 }
 </style>
+
+<script>
+
+</script>

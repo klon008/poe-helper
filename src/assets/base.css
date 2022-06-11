@@ -72,3 +72,110 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
+input.flat {
+	background-color: var(--vt-c-text-light-2);
+	color: var(--vt-c-white-soft);
+	outline-color: var(--vt-c-text-dark-2);
+    border-radius: 3px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 1px solid #c9d1d7;
+    box-shadow: 1px 1px 7px rgba(0,0,0,.2);
+    -moz-box-shadow: 1px 1px 7px rgba(0,0,0,.2);
+    -webkit-box-shadow: 1px 1px 7px rgba(0,0,0,.2);
+    -ms-box-shadow: 1px 1px 7px rgba(0,0,0,.2);
+    -o-box-shadow: 1px 1px 7px rgba(0,0,0,.2);
+    border-radius: 3px;
+}
+input.flat:disabled {
+	background-color: var(--color-background);
+	color: var(--color-text);
+	outline-color: var(--vt-c-text-dark-2);
+    border-radius: 3px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 1px solid #c9d1d7;
+    box-shadow: 1px 1px 7px rgba(0,0,0,.2);
+    -moz-box-shadow: 1px 1px 7px rgba(0,0,0,.2);
+    -webkit-box-shadow: 1px 1px 7px rgba(0,0,0,.2);
+    -ms-box-shadow: 1px 1px 7px rgba(0,0,0,.2);
+    -o-box-shadow: 1px 1px 7px rgba(0,0,0,.2);
+    border-radius: 3px;
+}
+
+.flat::-webkit-input-placeholder {
+  color: #a7a7a7;
+}
+.flat::-moz-placeholder {
+  color: #a7a7a7;
+}
+.flat:-ms-input-placeholder {
+  color: #a7a7a7;
+}
+.flat:-moz-placeholder {
+  color: #a7a7a7;
+}
+
+input.flat-checkbox,
+input.flat-radio {
+	position: absolute;
+	visibility: hidden;
+}
+
+input.flat-checkbox ~ label,
+input.flat-radio ~ label {
+	position: relative;
+}
+
+input.flat-checkbox ~ label:before,
+input.flat-checkbox ~ label:after {
+	position: absolute;
+	content: '';
+	top: -2px;
+    right: -25px;
+	width: 20px;
+	height: 20px;
+}
+
+input.flat-checkbox ~ label:before {
+	background-color: var(--vt-c-text-light-2);
+	border: 1px solid #c9d1d7;
+	border-radius: 3px;
+}
+
+input.flat-checkbox ~ label:after {
+	background: url('http://s8.picofile.com/file/8334266826/tick.png') no-repeat center center;
+	background-size: 75%;
+	opacity: 0;
+	transition: ease-in-out .3s;
+}
+
+input.flat-radio ~ label:before,
+input.flat-radio ~ label:after {
+	position: absolute;
+	content: '';
+	top: 0;
+    right: -24px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+
+input.flat-radio ~ label:before {
+	background-color: var(--vt-c-text-light-2);
+	border: 1px solid #c9d1d7;
+}
+
+input.flat-radio ~ label:after {
+	background: url('http://s8.picofile.com/file/8334266868/radio.png') no-repeat center center;
+	background-size: 75%;
+	opacity: 0;
+	transition: ease-in-out .3s;
+}
+
+input.flat-checkbox:checked ~ label:after,
+.radio input.flat-radio:checked ~ label:after {
+	opacity: 1;
+}

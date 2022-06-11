@@ -1,0 +1,257 @@
+[
+    {
+        "name": "Amplifying Power Core",
+        "icon": "/w/images/thumb/a/a6/Amplifying_Power_Core_inventory_icon.png/39px-Amplifying_Power_Core_inventory_icon.png",
+        "maxStock": "20"
+    },
+    {
+        "name": "Armour Recombinator",
+        "icon": "/w/images/thumb/8/8a/Armour_Recombinator_inventory_icon.png/39px-Armour_Recombinator_inventory_icon.png",
+        "maxStock": "20"
+    },
+    {
+        "name": "Armourer's Scrap",
+        "icon": "/w/images/thumb/8/88/Armourer%27s_Scrap_inventory_icon.png/39px-Armourer%27s_Scrap_inventory_icon.png",
+        "maxStock": "40"
+    },
+    {
+        "name": "Augmenting Power Core",
+        "icon": "/w/images/thumb/6/68/Augmenting_Power_Core_inventory_icon.png/39px-Augmenting_Power_Core_inventory_icon.png",
+        "maxStock": "20"
+    },
+    {
+        "name": "Awakened Sextant",
+        "icon": "/w/images/thumb/b/b2/Awakened_Sextant_inventory_icon.png/39px-Awakened_Sextant_inventory_icon.png",
+        "maxStock": "10"
+    },
+    {
+        "name": "Blacksmith's Whetstone",
+        "icon": "/w/images/thumb/1/1c/Blacksmith%27s_Whetstone_inventory_icon.png/39px-Blacksmith%27s_Whetstone_inventory_icon.png",
+        "maxStock": "20"
+    },
+    {
+        "name": "Blessed Orb",
+        "icon": "/w/images/thumb/d/de/Blessed_Orb_inventory_icon.png/39px-Blessed_Orb_inventory_icon.png",
+        "maxStock": "20"
+    },
+    {
+        "name": "Cartographer's Chisel",
+        "icon": "/w/images/thumb/5/55/Cartographer%27s_Chisel_inventory_icon.png/39px-Cartographer%27s_Chisel_inventory_icon.png",
+        "maxStock": "20"
+    },
+    {
+        "name": "Chaos Orb",
+        "icon": "/w/images/thumb/9/9c/Chaos_Orb_inventory_icon.png/39px-Chaos_Orb_inventory_icon.png",
+        "maxStock": "10"
+    },
+    {
+        "name": "Chromatic Orb",
+        "icon": "/w/images/thumb/f/fd/Chromatic_Orb_inventory_icon.png/39px-Chromatic_Orb_inventory_icon.png",
+        "maxStock": "20"
+    },
+    {
+        "name": "Divine Orb",
+        "icon": "/w/images/thumb/5/58/Divine_Orb_inventory_icon.png/39px-Divine_Orb_inventory_icon.png",
+        "maxStock": "10"
+    },
+    {
+        "name": "Eldritch Chaos Orb",
+        "icon": "/w/images/thumb/d/d2/Eldritch_Chaos_Orb_inventory_icon.png/39px-Eldritch_Chaos_Orb_inventory_icon.png",
+        "maxStock": "10"
+    },
+    {
+        "name": "Eldritch Exalted Orb",
+        "icon": "/w/images/thumb/0/01/Eldritch_Exalted_Orb_inventory_icon.png/39px-Eldritch_Exalted_Orb_inventory_icon.png",
+        "maxStock": "N/A"
+    },
+    {
+        "name": "Eldritch Orb of Annulment",
+        "icon": "/w/images/thumb/2/23/Eldritch_Orb_of_Annulment_inventory_icon.png/39px-Eldritch_Orb_of_Annulment_inventory_icon.png",
+        "maxStock": "20"
+    },
+    {
+        "name": "Enkindling Orb",
+        "icon": "/w/images/thumb/b/b3/Enkindling_Orb_inventory_icon.png/39px-Enkindling_Orb_inventory_icon.png",
+        "maxStock": "10"
+    },
+    {
+        "name": "Exalted Orb",
+        "icon": "/w/images/thumb/2/26/Exalted_Orb_inventory_icon.png/39px-Exalted_Orb_inventory_icon.png",
+        "maxStock": "10"
+    },
+    {
+        "name": "Gemcutter's Prism",
+        "icon": "/w/images/thumb/e/e2/Gemcutter%27s_Prism_inventory_icon.png/39px-Gemcutter%27s_Prism_inventory_icon.png",
+        "maxStock": "20"
+    },
+    {
+        "name": "Glassblower's Bauble",
+        "icon": "/w/images/thumb/b/bc/Glassblower%27s_Bauble_inventory_icon.png/39px-Glassblower%27s_Bauble_inventory_icon.png",
+        "maxStock": "20"
+    },
+    {
+        "name": "Grand Eldritch Ember",
+        "icon": "/w/images/thumb/f/f9/Grand_Eldritch_Ember_inventory_icon.png/39px-Grand_Eldritch_Ember_inventory_icon.png",
+        "maxStock": "10"
+    },
+    {
+        "name": "Grand Eldritch Ichor",
+        "icon": "/w/images/thumb/2/2d/Grand_Eldritch_Ichor_inventory_icon.png/39px-Grand_Eldritch_Ichor_inventory_icon.png",
+        "maxStock": "N/A"
+    },
+    {
+        "name": "Greater Eldritch Ember",
+        "icon": "/w/images/thumb/7/75/Greater_Eldritch_Ember_inventory_icon.png/39px-Greater_Eldritch_Ember_inventory_icon.png",
+        "maxStock": "10"
+    },
+    {
+        "name": "Greater Eldritch Ichor",
+        "icon": "/w/images/thumb/7/72/Greater_Eldritch_Ichor_inventory_icon.png/39px-Greater_Eldritch_Ichor_inventory_icon.png",
+        "maxStock": "N/A"
+    },
+    {
+        "name": "Instilling Orb",
+        "icon": "/w/images/thumb/7/7f/Instilling_Orb_inventory_icon.png/39px-Instilling_Orb_inventory_icon.png",
+        "maxStock": "10"
+    },
+    {
+        "name": "Jeweller's Orb",
+        "icon": "/w/images/thumb/4/49/Jeweller%27s_Orb_inventory_icon.png/39px-Jeweller%27s_Orb_inventory_icon.png",
+        "maxStock": "20"
+    },
+    {
+        "name": "Jewellery Recombinator",
+        "icon": "/w/images/thumb/4/49/Jewellery_Recombinator_inventory_icon.png/39px-Jewellery_Recombinator_inventory_icon.png",
+        "maxStock": "20"
+    },
+    {
+        "name": "Lesser Eldritch Ember",
+        "icon": "/w/images/thumb/e/eb/Lesser_Eldritch_Ember_inventory_icon.png/39px-Lesser_Eldritch_Ember_inventory_icon.png",
+        "maxStock": "10"
+    },
+    {
+        "name": "Lesser Eldritch Ichor",
+        "icon": "/w/images/thumb/7/7a/Lesser_Eldritch_Ichor_inventory_icon.png/39px-Lesser_Eldritch_Ichor_inventory_icon.png",
+        "maxStock": "10"
+    },
+    {
+        "name": "Mirror of Kalandra",
+        "icon": "/w/images/thumb/9/9c/Mirror_of_Kalandra_inventory_icon.png/39px-Mirror_of_Kalandra_inventory_icon.png",
+        "maxStock": "10"
+    },
+    {
+        "name": "Orb of Alchemy",
+        "icon": "/w/images/thumb/9/9f/Orb_of_Alchemy_inventory_icon.png/39px-Orb_of_Alchemy_inventory_icon.png",
+        "maxStock": "10"
+    },
+    {
+        "name": "Orb of Alteration",
+        "icon": "/w/images/thumb/d/d8/Orb_of_Alteration_inventory_icon.png/39px-Orb_of_Alteration_inventory_icon.png",
+        "maxStock": "20"
+    },
+    {
+        "name": "Orb of Annulment",
+        "icon": "/w/images/thumb/4/4c/Orb_of_Annulment_inventory_icon.png/39px-Orb_of_Annulment_inventory_icon.png",
+        "maxStock": "20"
+    },
+    {
+        "name": "Orb of Augmentation",
+        "icon": "/w/images/thumb/c/cb/Orb_of_Augmentation_inventory_icon.png/39px-Orb_of_Augmentation_inventory_icon.png",
+        "maxStock": "30"
+    },
+    {
+        "name": "Orb of Binding",
+        "icon": "/w/images/thumb/9/94/Orb_of_Binding_inventory_icon.png/39px-Orb_of_Binding_inventory_icon.png",
+        "maxStock": "20"
+    },
+    {
+        "name": "Orb of Chance",
+        "icon": "/w/images/thumb/8/86/Orb_of_Chance_inventory_icon.png/39px-Orb_of_Chance_inventory_icon.png",
+        "maxStock": "20"
+    },
+    {
+        "name": "Orb of Fusing",
+        "icon": "/w/images/thumb/6/62/Orb_of_Fusing_inventory_icon.png/39px-Orb_of_Fusing_inventory_icon.png",
+        "maxStock": "20"
+    },
+    {
+        "name": "Orb of Horizons",
+        "icon": "/w/images/thumb/3/34/Orb_of_Horizons_inventory_icon.png/39px-Orb_of_Horizons_inventory_icon.png",
+        "maxStock": "20"
+    },
+    {
+        "name": "Orb of Regret",
+        "icon": "/w/images/thumb/a/a8/Orb_of_Regret_inventory_icon.png/39px-Orb_of_Regret_inventory_icon.png",
+        "maxStock": "40"
+    },
+    {
+        "name": "Orb of Scouring",
+        "icon": "/w/images/thumb/5/51/Orb_of_Scouring_inventory_icon.png/39px-Orb_of_Scouring_inventory_icon.png",
+        "maxStock": "30"
+    },
+    {
+        "name": "Orb of Transmutation",
+        "icon": "/w/images/thumb/6/67/Orb_of_Transmutation_inventory_icon.png/39px-Orb_of_Transmutation_inventory_icon.png",
+        "maxStock": "40"
+    },
+    {
+        "name": "Orb of Unmaking",
+        "icon": "/w/images/thumb/4/48/Orb_of_Unmaking_inventory_icon.png/39px-Orb_of_Unmaking_inventory_icon.png",
+        "maxStock": "40"
+    },
+    {
+        "name": "Portal Scroll",
+        "icon": "/w/images/thumb/e/e5/Portal_Scroll_inventory_icon.png/39px-Portal_Scroll_inventory_icon.png",
+        "maxStock": "40"
+    },
+    {
+        "name": "Power Core",
+        "icon": "/w/images/thumb/2/24/Power_Core_inventory_icon.png/39px-Power_Core_inventory_icon.png",
+        "maxStock": "20"
+    },
+    {
+        "name": "Regal Orb",
+        "icon": "/w/images/thumb/3/33/Regal_Orb_inventory_icon.png/39px-Regal_Orb_inventory_icon.png",
+        "maxStock": "10"
+    },
+    {
+        "name": "Sacred Orb",
+        "icon": "/w/images/thumb/5/5d/Sacred_Orb_inventory_icon.png/39px-Sacred_Orb_inventory_icon.png",
+        "maxStock": "10"
+    },
+    {
+        "name": "Scroll of Wisdom",
+        "icon": "/w/images/thumb/b/b6/Scroll_of_Wisdom_inventory_icon.png/39px-Scroll_of_Wisdom_inventory_icon.png",
+        "maxStock": "40"
+    },
+    {
+        "name": "Stacked Deck",
+        "icon": "/w/images/thumb/6/60/Stacked_Deck_inventory_icon.png/39px-Stacked_Deck_inventory_icon.png",
+        "maxStock": "10"
+    },
+    {
+        "name": "Surveyor's Compass",
+        "icon": "/w/images/thumb/7/73/Surveyor%27s_Compass_inventory_icon.png/39px-Surveyor%27s_Compass_inventory_icon.png",
+        "maxStock": "10"
+    },
+    {
+        "name": "Transforming Power Core",
+        "icon": "/w/images/thumb/7/70/Transforming_Power_Core_inventory_icon.png/39px-Transforming_Power_Core_inventory_icon.png",
+        "maxStock": "20"
+    },
+    {
+        "name": "Vaal Orb",
+        "icon": "/w/images/thumb/2/2c/Vaal_Orb_inventory_icon.png/39px-Vaal_Orb_inventory_icon.png",
+        "maxStock": "10"
+    },
+    {
+        "name": "Veiled Chaos Orb",
+        "icon": "/w/images/thumb/7/72/Veiled_Chaos_Orb_inventory_icon.png/39px-Veiled_Chaos_Orb_inventory_icon.png",
+        "maxStock": "10"
+    },
+    {
+        "name": "Weapon Recombinator",
+        "icon": "/w/images/thumb/b/b3/Weapon_Recombinator_inventory_icon.png/39px-Weapon_Recombinator_inventory_icon.png",
+        "maxStock": "20"
+    }
+]
