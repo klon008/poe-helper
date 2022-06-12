@@ -62,7 +62,7 @@
     {
         "name": "Eldritch Exalted Orb",
         "icon": "/w/images/thumb/0/01/Eldritch_Exalted_Orb_inventory_icon.png/39px-Eldritch_Exalted_Orb_inventory_icon.png",
-        "maxStock": "N/A"
+        "maxStock": "10"
     },
     {
         "name": "Eldritch Orb of Annulment",
@@ -97,7 +97,7 @@
     {
         "name": "Grand Eldritch Ichor",
         "icon": "/w/images/thumb/2/2d/Grand_Eldritch_Ichor_inventory_icon.png/39px-Grand_Eldritch_Ichor_inventory_icon.png",
-        "maxStock": "N/A"
+        "maxStock": "10"
     },
     {
         "name": "Greater Eldritch Ember",
@@ -107,7 +107,7 @@
     {
         "name": "Greater Eldritch Ichor",
         "icon": "/w/images/thumb/7/72/Greater_Eldritch_Ichor_inventory_icon.png/39px-Greater_Eldritch_Ichor_inventory_icon.png",
-        "maxStock": "N/A"
+        "maxStock": "10"
     },
     {
         "name": "Instilling Orb",
