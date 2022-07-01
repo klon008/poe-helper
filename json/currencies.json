@@ -253,5 +253,10 @@
         "name": "Weapon Recombinator",
         "icon": "/w/images/thumb/b/b3/Weapon_Recombinator_inventory_icon.png/39px-Weapon_Recombinator_inventory_icon.png",
         "maxStock": "20"
+    },
+    {
+        "name": "Essence",
+        "icon": "/w/images/thumb/a/aa/Essence_of_Insanity_inventory_icon.png/39px-Essence_of_Insanity_inventory_icon.png",
+        "maxStock": "9"
     }
 ]
