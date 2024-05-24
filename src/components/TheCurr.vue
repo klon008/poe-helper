@@ -10,7 +10,7 @@ import myJson from '/json/currencies.json';
         <div class="gid">
             <div v-for="data in myJson" class="gid-e" v-bind:key="data.name">
                 <div @click="selected=data" :class="{ active: (data.name == selected.name) }"><img
-                        :src="'https://www.poewiki.net'+data.icon" :alt="data.name" :title="data.name"></div>
+                        :src="'https://www.poewiki.net'+data.icon" :alt="data.name" :title="data.name" width="39" height="39"></div>
             </div>
         </div>
         <h3>Stash</h3>

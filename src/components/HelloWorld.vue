@@ -36,6 +36,7 @@ import TheCurr from './TheCurr.vue'
 .buttons{
   padding-top: 25px;
   flex-wrap: nowrap;
+  text-align: center;
 }
 .buttons button{
   background: transparent;
@@ -46,8 +47,9 @@ import TheCurr from './TheCurr.vue'
   font-weight: 500;
   margin-bottom: 0.4rem;
   color: var(--color-heading);
-  margin-right: 2%;
+  margin-right: 2px;
   border-radius: 3px;
+  box-sizing: border-box;
 }
 .buttons button.active{
   background: var(--vt-c-text-light-2);

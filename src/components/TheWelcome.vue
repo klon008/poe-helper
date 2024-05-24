@@ -13,12 +13,12 @@ import { defineComponent } from 'vue';
 <template>
   <WelcomeItem>
     <template #icon>
-      <img class="css-mpit4l" src="https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyAddModToRare.png?scale=1&amp;w=1&amp;h=1" alt="">
+      <img class="css-mpit4l" src="https://www.poewiki.net/images/5/58/Divine_Orb_inventory_icon.png" width="48" height="48" alt="">
     </template>
-    <template #heading>Exalted</template>
+    <template #heading>Divine</template>
 
     <div class="row">
-    <input v-model="exaltz" v-on:change="meowMow($event)" placeholder="Exalt to Chaos" class="flat" v-on:keypress="NumbersOnly" >
+    <input v-model="exaltz" v-on:change="meowMow($event)" placeholder="Divine to Chaos" class="flat" v-on:keypress="NumbersOnly" >
     <button  @click="buttonClick" class="refresh-button ">
     <img :class="{'animate__animated animate__rotateIn': btnAnimated}"  @animationend="btnAnimated = false" src="@/assets/img/refresh-button.png" width="48" height="48" />
     </button>
@@ -104,7 +104,7 @@ export default defineComponent({
         if (this.chaoses){
           let axconfig = {
               "sell": "Chaos Orb",
-              "buy": "Exalted Orb",
+              "buy": "Divine Orb",
               "limit": 5
           }
           //axios.get('https://poe.ninja/api/data/currencyoverview', axconfig).then((response) => this.sjson = response.data.response)
@@ -118,7 +118,7 @@ export default defineComponent({
             console.log(response);
             this.sjson = response.data;
             const tempJson = response.data;
-            const selectedEx = tempJson.find(o => o.name == 'Exalted Orb')
+            const selectedEx = tempJson.find(o => o.name == 'Divine Orb')
             const chaosEquivalent = selectedEx.chaosEquivalent;
             this.chaosText = chaosEquivalent;
             VueCookieNext.setCookie('chaosEquivalent', chaosEquivalent, { 
@@ -137,7 +137,7 @@ export default defineComponent({
       this.btnAnimated = true;
       const axconfig = {
           "sell": "Chaos Orb",
-          "buy": "Exalted Orb",
+          "buy": "Divine Orb",
           "limit": 5
       }
       axios({
@@ -149,7 +149,7 @@ export default defineComponent({
           }).then((response) => {
             this.sjson = response.data;
             const tempJson = response.data;
-            const selectedEx = tempJson.find(o => o.name == 'Exalted Orb')
+            const selectedEx = tempJson.find(o => o.name == 'Divine Orb')
             const chaosEquivalent = selectedEx.chaosEquivalent;
             this.chaosText = chaosEquivalent;
             VueCookieNext.setCookie('chaosEquivalent', chaosEquivalent, { 
@@ -166,12 +166,13 @@ export default defineComponent({
   },
   mounted(){
       this.$nextTick(() => {
-        console.log('11')
+        console.log('11');
+        this.buttonClick();
         let loadCookie = VueCookieNext.getCookie('chaosEquivalent');
         if (!loadCookie){
           loadCookie = 100;
         }
-        this.chaosText = loadCookie
+        this.chaosText = loadCookie;
       })
     }
 })
