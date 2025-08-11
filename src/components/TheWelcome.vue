@@ -166,7 +166,6 @@ export default defineComponent({
   },
   mounted(){
       this.$nextTick(() => {
-        console.log('11');
         this.buttonClick();
         let loadCookie = VueCookieNext.getCookie('chaosEquivalent');
         if (!loadCookie){
