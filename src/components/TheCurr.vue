@@ -50,6 +50,10 @@ import myJson from '/json/currencies.json';
     background-color: var(--vt-c-indigo);
     border-radius: 3px;
 }
+.gid-e-cell>img{
+    width: 39px;
+    height: 39px;
+}
 
 .flat{
     margin-bottom: 5%;

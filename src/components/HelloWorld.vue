@@ -8,7 +8,7 @@ import TheCurr from './TheCurr.vue'
 <template>
   <div class="h-100">
     <div class="buttons">
-      <button :class="{ active: (selected == 0) }" @click="selected=0">Exalt Converter</button>
+      <button :class="{ active: (selected == 0) }" @click="selected=0">Divine Converter</button>
       <button :class="{ active: (selected == 1) }" @click="selected=1">Stash currency Helper</button>
     </div>
     <div class="content-full-height">
